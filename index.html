@@ -9,7 +9,7 @@
 
 <body>
     <header>
-        <div class="header">
+        <div class="header-row">
             <img class="logo" src="img/logo.svg" alt="The Booleaner Logo">
         </div>
 
@@ -23,18 +23,23 @@
             <div class="author-line">Scritto da <span class="author-name">The Booleaner</span></div>
             <div class="date-line">il 10/10/2020</div>
 
-            <figure class="image-row">
+            <figure class="image-row article-element">
                 <img src="img/tim-1.jpg" alt="Tim Berners-Lee Picture 1">
                 <img src="img/tim-2.jpg" alt="Tim Berners-Lee Picture 2">
+                <figcaption>
+                    <div>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
+                    <div>2nd Photo: Wikimedia by Paul Clark</div>
+                </figcaption>
             </figure>
 
-            <p>
+            <p class="article-element">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate labore provident odit sequi explicabo
-                impedit quisquam fugit aspernatur, ab minima aliquid exercitationem animi minus culpa dignissimos
+                <span class="highlighted">impedit quisquam fugit aspernatur</span>
+                , ab minima aliquid exercitationem animi minus culpa dignissimos
                 molestiae magnam consequatur nostrum.
             </p>
 
-            <ul>
+            <ul class="article-list article-element">
                 <li>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos molestiae incidunt officia
                     asperiores laborum, tenetur cum maiores reiciendis voluptas sit explicabo porro et nisi laboriosam
@@ -52,7 +57,7 @@
                 </li>
             </ul>
 
-            <table>
+            <table class="article-element">
                 <thead>
                     <tr>
                         <th>Lorem ipsum dolor</th>
@@ -64,30 +69,50 @@
                     <tr>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorum ducimus optio
+                            deleniti earum pariatur libero ex! Minima sunt, assumenda non sint rem iste dolorem?
+                            Veritatis eveniet molestias sed exercitationem!</td>
+                    </tr>
+                    <tr>
                         <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, adipisci. Id nobis
+                            distinctio rerum minima vero esse iste quisquam modi voluptatum facilis, quod iure repellat
+                            nam quam aspernatur quo magni!</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque mollitia quos
+                            voluptatibus architecto earum, deserunt perspiciatis dolorem quas aspernatur ipsa obcaecati,
+                            alias ducimus repudiandae! Qui impedit doloremque maiores eum rem.</td>
                     </tr>
                 </tbody>
             </table>
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sequi neque facere vero quis aut
-                quisquam quo placeat, harum facilis temporibus quasi voluptate quam eveniet. Praesentium dolorem
+            <p class="article-element">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="highlighted">Perspiciatis sequi
+                    neque facere vero quis aut
+                    quisquam quo placeat</span>, harum facilis temporibus quasi voluptate quam eveniet. Praesentium
+                dolorem
                 mollitia nostrum voluptatem!
             </p>
         </article>
 
-        <section>
-            <h2>Potrebbero Interessarti</h2>
-            <div>
-                Lorem ipsum dolor
-            </div>
-            <div>
-                Lorem ipsum dolor
-            </div>
-        </section>
+
+
+
     </main>
 
-    <footer></footer>
+    <footer>
+        <h3 class="suggested-title">Potrebbero Interessarti</h3>
+        <div class="suggested-article" id="art1">
+            Lorem ipsum dolor
+        </div>
+        <div class="suggested-article" id="art2">
+            Lorem ipsum dolor
+        </div>
+    </footer>
 </body>
 
 </html>
