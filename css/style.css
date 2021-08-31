@@ -43,10 +43,6 @@ header > .row {
   color: grey;
 }
 
-.highlighted {
-  background-color: yellow;
-}
-
 .article-list {
   padding-left: 20px;
 }
