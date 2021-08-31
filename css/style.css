@@ -9,7 +9,11 @@ footer {
   margin-left: 10px;
 }
 
-.header-row {
+.row {
+  padding-top: 20px;
+}
+
+header > .row {
   padding-top: 60px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -24,25 +28,21 @@ footer {
 
 .title {
   font-size: 50px;
-  margin: 10px 0px 0px 0px;
 }
 
-.author-line {
+.author {
   color: grey;
   font-size: 25px;
 }
 
-.author-name {
+.author > .name {
   color: dodgerblue;
 }
 
-.date-line {
+.date {
   color: grey;
 }
 
-.article-element {
-  padding-top: 20px;
-}
 .highlighted {
   background-color: yellow;
 }
@@ -59,10 +59,12 @@ thead {
   color: white;
   background-color: deepskyblue;
 }
+
 th {
   min-width: 200px;
   text-align: start;
 }
+
 tbody > tr:nth-child(odd) {
   background-color: lightblue;
 }
