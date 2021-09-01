@@ -7,6 +7,7 @@
 main,
 footer {
   margin-left: 10px;
+  padding-right: 10px;
 }
 
 .row {
@@ -17,12 +18,13 @@ header > .row {
   padding-top: 60px;
   padding-bottom: 10px;
   padding-left: 10px;
+
   background-image: url("../img/pattern.png");
   background-size: auto;
   background-color: dodgerblue;
 }
 
-.logo {
+#logo {
   width: 200px;
 }
 
@@ -30,17 +32,17 @@ header > .row {
   font-size: 50px;
 }
 
-.author {
+.text-grey {
   color: grey;
+}
+
+.author {
   font-size: 25px;
 }
 
 .author > .name {
   color: dodgerblue;
-}
-
-.date {
-  color: grey;
+  text-decoration: none;
 }
 
 .article-list {
@@ -54,12 +56,14 @@ table {
 thead {
   color: white;
   background-color: deepskyblue;
+  font-weight: bold;
+  text-align: start;
 }
-
+/* 
 th {
   min-width: 200px;
   text-align: start;
-}
+} */
 
 tbody > tr:nth-child(odd) {
   background-color: lightblue;
@@ -69,7 +73,7 @@ footer {
   margin-top: 30px;
 }
 
-.suggested-article {
+.card {
   width: 300px;
   height: 200px;
   font-size: 30px;
@@ -78,10 +82,6 @@ footer {
   background-size: cover;
   padding: 15px 10px;
   margin-top: 15px;
-}
-
-.suggested-title {
-  color: grey;
 }
 
 #art1 {
